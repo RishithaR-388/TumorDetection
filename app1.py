@@ -11,22 +11,6 @@ with open(r"C:\Users\Rishitha Reddy\OneDrive\Desktop\Brain_Tumor\style.css")as f
  st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
 
-# def add_bg_from_url():
-#     st.markdown(
-#          f"""
-#          <style>
-#          .stApp {{
-#              background-image: url("images/bg.jpg");
-#              background-attachment: fixed;
-#              background-size: cover
-#          }}
-#          </style>
-#          """,
-#          unsafe_allow_html=True
-#      )
-
-# add_bg_from_url() 
-
 st.write("""
 <style>
 .big-font {
